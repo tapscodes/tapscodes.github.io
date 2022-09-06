@@ -6,8 +6,8 @@ const nextConfig = {
     loader: "akamai",
     path: "/",
   },
-  basePath: "/tapscodes.github.io",
-  assetPrefix: "/tapscodes.github.io",
+  basePath: "",
+  assetPrefix: "/",
 };
 
 module.exports = nextConfig;
