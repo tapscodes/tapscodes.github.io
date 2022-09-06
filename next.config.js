@@ -8,6 +8,6 @@ const nextConfig = {
   },
   basepath: "/tapscodes.github.io",
   assetPrefix: "/tapscodes.github.io",
-}
+};
 
 module.exports = nextConfig;
