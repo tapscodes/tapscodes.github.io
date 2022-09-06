@@ -31,6 +31,9 @@ jobs:
     - run: npm run build
     - run: npm run export
     # ^builds + exports pages
+    - run: touch ./out/.nojekyll
+    # ^tells GitHub that this isn't a jekyll app
+    
     
     # Ripped from https://github.com/marketplace/actions/deploy-to-github-pages
     - name: Deploy 🚀
