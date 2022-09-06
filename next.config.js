@@ -10,4 +10,4 @@ const nextConfig = {
   assetPrefix: "/tapscodes.github.io",
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
