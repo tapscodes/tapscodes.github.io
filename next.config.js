@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     loader: "akamai",
-    path: "",
+    path: "/",
   },
   basePath: "/tapscodes.github.io",
   assetPrefix: "/tapscodes.github.io",
