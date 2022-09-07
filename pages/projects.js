@@ -1,10 +1,15 @@
 import Link from "next/link";
+import Head from "next/head";
 
 const Projects = () => {
     return ( 
         <div>
+            <Head>
+                <title>Tristan's Projects</title>
+                <meta name="description" content="Tristan Spatscheck's Coding Projects"/>
+            </Head>
             <ul>
-                <h1>Personal Projects</h1>
+                <h1>Coding Projects</h1>
                 <h3><Link href="https://github.com/tapscodes/tapscodes.github.io">Next.js Portfolio Website</Link></h3>
                 <p>The website you are currently viewing was made entirely with React and Next.JS.</p>
                 <h3><Link href="https://github.com/tapscodes/WatchList">WatchList</Link></h3>
