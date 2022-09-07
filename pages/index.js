@@ -9,6 +9,7 @@ export default function Home() {
                 <meta name="description" content="Tristan Spatscheck's Personal Portfolio Website."/>
       </Head>
       <h1>SITE BEING CONSTRUCTED</h1>
+      <Image src="/Images/prof_pic.jpg" width={128} height={128}/>
       <h3>Come back in 1-2 days please.</h3>
     </div>
   )
