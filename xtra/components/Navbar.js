@@ -13,13 +13,13 @@ const Navbar = () => {
                 <Link href="/PDFs/Resume.pdf">Resume</Link>
                 {/*Had to use div here instead of making image navpic because it wouldn't format otherwise*/}
                 <div className="navpic">
-                    <Link href="https://github.com/tapscodes"><Image src="Images/github.png" width={48} height={48}/></Link>
+                    <Link href="https://github.com/tapscodes"><a><Image src="Images/github.png" width={48} height={48}/></a></Link>
                 </div>
                 <div className="navpic">
-                    <Link href="https://www.linkedin.com/in/taps/"><Image src="Images/linked_in.png" width={48} height={48}/></Link>
+                    <Link href="https://www.linkedin.com/in/taps/"><a><Image src="Images/linked_in.png" width={48} height={48}/></a></Link>
                 </div>
                 <div className="navpic">
-                    <Link href="mailto:business@tristan-alexander.com"><Image src="Images/email.png" width={48} height={48}/></Link>
+                    <Link href="mailto:business@tristan-alexander.com"><a><Image src="Images/email.png" width={48} height={48}/></a></Link>
                 </div>
             </div>
         </nav>
