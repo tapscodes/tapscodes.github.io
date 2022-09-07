@@ -20,7 +20,7 @@ const Projects = () => {
                 <h3><Link href="https://github.com/tapscodes/FirstSite">HTML Portfolio Website</Link></h3>
                 <p>
                     I originally created my portfolio website using nothing but basic html, css, and javascript.<br/>
-                    It is still being hosted in github pages. If you want to look at it, <Link href="https://tapscodes.github.io/firstsite">click here</Link>.
+                    It is still being hosted in github pages. If you want to look at it, <Link href="https://tapscodes.github.io/FirstSite">click here</Link>.
                 </p>
             </ul>
         </div>
