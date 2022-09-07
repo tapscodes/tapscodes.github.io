@@ -10,7 +10,8 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
                 <Link href="/projects">Projects</Link>
                 <Link href="/about">About</Link>
-                <Link href="/PDFs/Resume.pdf">My Resume</Link>
+                <Link href="/PDFs/Resume.pdf">Resume</Link>
+                {/*Had to use div here instead of making image navpic because it wouldn't format otherwise*/}
                 <div className="navpic">
                     <Link href="https://github.com/tapscodes"><Image src="Images/github.png" width={48} height={48}/></Link>
                 </div>
