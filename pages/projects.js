@@ -14,7 +14,7 @@ const Projects = () => {
                 <p>The website you are currently viewing was made entirely with React and Next.JS.</p>
                 <h3><Link href="https://github.com/tapscodes/WatchList">WatchList</Link></h3>
                 <p>
-                    Watchlist is a personal project built in java that stores your shows watched,<br />
+                    Watchlist is a personal project built with javafx + java that stores your shows watched,<br />
                     the current episode you're on, and your current watching status.
                 </p>
                 <h3><Link href="https://github.com/tapscodes/FirstSite">HTML Portfolio Website</Link></h3>
