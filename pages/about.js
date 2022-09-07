@@ -45,6 +45,7 @@ const About = () => {
                     <li>Randolph High School's Robotics Club Award</li>
                 </ul>
                 {/*NAV: Interests*/}
+                <h1>Interests</h1>
                 <ul>
                     <li>Basketball</li>
                     <li>Skiing</li>
