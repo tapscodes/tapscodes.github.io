@@ -18,17 +18,17 @@ const About = () => {
             <h3>Randolph High School</h3>
             <p>Highschool Diploma: August 2016-June 2020</p>
             {/*NAV: Classes*/}
-            <h1>Relevant Coursework</h1>
+            <h1>Relevant Coursework + Languages/Tools Used</h1>
             <ul>
                 <h3>Completed</h3>
-                <li>Object-Oriented Programming</li>
-                <li>Data Structers and Algorithms</li>
+                <li>Object-Oriented Programming: Java</li>
+                <li>Data Structers and AlgorithmsL Java</li>
                 <li>Discrete Mathmatics</li>
-                <li>Computer Organizaiton</li>
-                <li>Software Practice 1</li>
+                <li>Computer Organizaiton: MIPS</li>
+                <li>Software Practice 1: C#, SQL, Visual Studio 2022, GitHub</li>
 
                 <h3>In Progress</h3>
-                <li>Software Practice 2</li>
+                <li>Software Practice 2: C++, Visual Studio Code, GitHub</li>
                 <li>Ethics in Data Science</li>
                 <li>Linear Algebra</li>
                 <li>Research Forum</li>
