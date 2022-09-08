@@ -1,14 +1,33 @@
+
 /*NAV: Main Site*/
 body{
   background-color: rgb(173, 167, 167);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
-h1{
-  color: red;
+
+/*NAV: Extra Elements*/
+.quote_section{
+  display:flex;
+  justify-content: center;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
 }
+
+.quote_text{
+  text-align: center;
+  margin-top: 3.5%;
+  margin-left: 2.5vw;
+}
+
+.main_pic{
+  border-radius: 64px;
+  overflow:hidden;
+} 
 
 /*NAV: Navbar*/
 .navbar{
-  padding: 1vw;
+  padding: 0.5vw;
   display: flex;
   align-items: center;
   background-color: slategrey;
