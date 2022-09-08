@@ -1,14 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import styles from "../../styles//components/Navbar.module.css";
 
 const Navbar = () => {
     return ( 
         <nav>
-            <div className="navbar">
-                <div className="navicon">
+            <div className={styles.navbar}>
+                <div className={styles.icon}>
                     <Image src="Icons/android-chrome-192x192.png" width="60vw" height="60vw"/>
                 </div>
-                <div className="navmain">
+                <div className={styles.other}>
                     <Link href="/"><a>Home</a></Link>
                     <Link href="/projects"><a>Projects</a></Link>
                     <Link href="/about"><a>About</a></Link>

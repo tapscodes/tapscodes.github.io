@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(112,128,144);
+    border: .01vw solid #ddd;
+    width: 100vw;
+    height: 4vw;
+}
+.other{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5vw;
+    margin-right: 0.5vw;
+    margin-left: auto;
+}
+.other a{
+    color:aliceblue;
+    text-decoration: none;
+    margin-left: 1vw;
+    font-size: 2.2vw;
+}
+.other a:hover{
+    color:burlywood;
+    text-decoration: underline;
+}
+.icon {
+    display: flex;
+    margin-left: 0.5vw;
+}
