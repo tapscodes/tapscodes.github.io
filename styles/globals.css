@@ -15,6 +15,7 @@ body{
 }
 
 .quote_text{
+  color: rgb(200, 40, 15);
   text-align: center;
   margin-top: 3.5%;
   margin-left: 2.5vw;
@@ -30,8 +31,8 @@ body{
   padding: 0.5vw;
   display: flex;
   align-items: center;
-  background-color: slategrey;
-  border-bottom: .01vw solid #ddd;
+  background-color: rgb(112,128,144);
+  border: .01vw solid #ddd;
 }
 .navbar a{ /*Links*/
   color:aliceblue;
