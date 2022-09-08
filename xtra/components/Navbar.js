@@ -2,7 +2,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Navbar = () => {
-    //resume link pulls from the 'public' folder.
     return ( 
         <nav>
             <div className="navbar">
