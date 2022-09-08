@@ -17,6 +17,7 @@
 .other a{
     color:aliceblue;
     text-decoration: none;
+    margin-top: 1vw;
     margin-left: 1vw;
     font-size: 2.2vw;
 }
@@ -26,5 +27,5 @@
 }
 .icon {
     display: flex;
-    margin-left: 0.5vw;
+    margin-left: 0.2vw;
 }
