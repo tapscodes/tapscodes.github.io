@@ -15,6 +15,8 @@ body{
   align-items: center;
   background-color: rgb(112,128,144);
   border: .01vw solid #ddd;
+  width: 100vw;
+  height: 4vw;
 }
 .navbar a{ /*Links*/
   color:aliceblue;
