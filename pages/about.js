@@ -1,6 +1,7 @@
 import Link from "next/link"; 
 import Head from "next/head";
 import ImageTextBox from "../xtra/components/ImageTextBox";
+import styles from '../styles/pages/About.module.css';
 
 const About = () => {
     return ( 
@@ -20,11 +21,14 @@ const About = () => {
             <p>Highschool Diploma: August 2016-June 2020</p>
             {/*NAV: Interests*/}
             <h1>Interests</h1>
-            <ImageTextBox img_url="/Images/basketball.jpg" text="Basketball"/>
-            <ImageTextBox img_url="/Images/basketball.jpg" text="Skiing"/>
-            <ImageTextBox img_url="/Images/basketball.jpg" text="Pizza"/>
-            <ImageTextBox img_url="/Images/basketball.jpg" text="Tennis"/>
-            <ImageTextBox img_url="/Images/basketball.jpg" text="Gaming"/>
+            <div className={styles.interests}>
+                <ImageTextBox img_url="../../Images/basketball.jpg" text="Basketball"/>
+                <ImageTextBox img_url="/Images/skiing.jpg" text="Skiing"/>
+                <ImageTextBox img_url="/Images/pizza.jpg" text="Pizza"/>
+                <ImageTextBox img_url="/Images/tennis.jpg" text="Tennis"/>
+                <ImageTextBox img_url="/Images/spongebob.jpg" text="Spongebob"/>
+                <ImageTextBox img_url="/Images/gaming.jpg" text="Gaming"/>
+            </div>
         </div>
      );
 }
