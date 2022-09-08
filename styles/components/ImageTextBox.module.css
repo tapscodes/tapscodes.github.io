@@ -3,11 +3,11 @@
     flex-wrap: nowrap;
     flex-direction: column;
     margin: 0 auto;
-    height: 15vw;
-    width: 20vw;
 
     background-size: cover;
     background-repeat: no-repeat;
+
+    flex:1;
     
     border: 0.01vw solid rgb(255,0,0);
     border-radius: 2vw;
