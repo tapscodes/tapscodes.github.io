@@ -3,6 +3,7 @@
     flex-wrap: nowrap;
     flex-direction: column;
     margin: 0 auto;
+    height: 15vw;
 
     background-size: cover;
     background-repeat: no-repeat;
