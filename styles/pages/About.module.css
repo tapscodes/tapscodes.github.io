@@ -1,0 +1,4 @@
+.interests{
+    display: flex;
+    flex-direction:row;
+}
