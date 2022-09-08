@@ -22,7 +22,7 @@ const About = () => {
             <ul>
                 <h3>Completed</h3>
                 <li>Object-Oriented Programming: Java</li>
-                <li>Data Structers and AlgorithmsL Java</li>
+                <li>Data Structers and Algorithms: Java</li>
                 <li>Discrete Mathmatics</li>
                 <li>Computer Organizaiton: MIPS</li>
                 <li>Software Practice 1: C#, SQL, Visual Studio 2022, GitHub</li>

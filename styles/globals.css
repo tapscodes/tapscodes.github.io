@@ -7,24 +7,6 @@ body{
 }
 
 /*NAV: Extra Elements*/
-.quote_section{
-  display:flex;
-  justify-content: center;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
-}
-
-.quote_text{
-  color: rgb(200, 40, 15);
-  text-align: center;
-  margin-top: 3.5%;
-  margin-left: 2.5vw;
-}
-
-.main_pic{
-  border-radius: 64px;
-  overflow:hidden;
-} 
 
 /*NAV: Navbar*/
 .navbar{
