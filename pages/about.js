@@ -1,5 +1,6 @@
 import Link from "next/link"; 
 import Head from "next/head";
+import Marquee from 'react-fast-marquee';
 import ImageTextBox from "../xtra/components/ImageTextBox";
 import styles from '../styles/pages/About.module.css';
 
@@ -22,12 +23,14 @@ const About = () => {
             {/*NAV: Interests*/}
             <h1>Interests</h1>
             <div className={styles.interests}>
-                <ImageTextBox img_url="../../Images/basketball.jpg" text="Basketball"/>
-                <ImageTextBox img_url="/Images/skiing.jpg" text="Skiing"/>
-                <ImageTextBox img_url="/Images/pizza.jpg" text="Pizza"/>
-                <ImageTextBox img_url="/Images/tennis.jpg" text="Tennis"/>
-                <ImageTextBox img_url="/Images/spongebob.jpg" text="Spongebob"/>
-                <ImageTextBox img_url="/Images/gaming.jpg" text="Gaming"/>
+                <Marquee speed="100" pauseOnHover={true} direction="left" gradient={true} gradientColor={[255,0,0]} gradientWidth={30}>
+                    <ImageTextBox img_url="../../Images/basketball.jpg" text="Basketball"/>
+                    <ImageTextBox img_url="/Images/skiing.jpg" text="Skiing"/>
+                    <ImageTextBox img_url="/Images/pizza.jpg" text="Pizza"/>
+                    <ImageTextBox img_url="/Images/tennis.jpg" text="Tennis"/>
+                    <ImageTextBox img_url="/Images/spongebob.jpg" text="Spongebob"/>
+                    <ImageTextBox img_url="/Images/gaming.jpg" text="Gaming"/>
+                </Marquee>               
             </div>
         </div>
      );
