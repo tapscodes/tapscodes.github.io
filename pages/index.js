@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className = "home">
       <Head>
-                <title>Tristan's Website</title>
-                <meta name="description" content="Tristan Spatscheck's Personal Portfolio Website."/>
+        <title>Tristan's Website</title>
+        <meta name="description" content="Tristan Spatscheck's Personal Portfolio Website."/>
       </Head>
       <div className={styles.box}>
         <Image className={styles.pic} src="/Images/prof_pic.jpg" width={128} height={128}/>
