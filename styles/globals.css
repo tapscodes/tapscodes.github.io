@@ -13,6 +13,7 @@ body{
   padding: 0.5vw;
   display: flex;
   align-items: center;
+  flex-direction: row;
   background-color: rgb(112,128,144);
   border: .01vw solid #ddd;
   width: 100vw;
@@ -27,11 +28,4 @@ body{
 .navbar a:hover{
   color:burlywood;
   text-decoration: underline;
-}
-.logo{
-  margin-left: 0vw;
-  margin-right: auto;
-}
-.navpic{
-  margin-left: 0.01vw;
 }
