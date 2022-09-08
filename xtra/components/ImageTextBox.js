@@ -1,9 +1,8 @@
-//import styles from "..styles//components/ImageTextBox.module.css";
-//import styles from '../styles/Home.module.css';
+import styles from "../../styles//components/ImageTextBox.module.css";
 const ImageTextBox = (props) => {
     return ( 
-        <div className="s" style={{backgroundImage:"url(" + props.img_url + ")"}}>
-            <p className="d">{props.text}</p>
+        <div className={styles.interest} style={{backgroundImage:"url(" + props.img_url + ")"}}>
+            <p>{props.text}</p>
         </div>
      );
 }
