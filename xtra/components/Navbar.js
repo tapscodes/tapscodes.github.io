@@ -13,9 +13,9 @@ const Navbar = () => {
                     <Link href="/"><a>Home</a></Link>
                     <Link href="/projects"><a>Projects</a></Link>
                     <Link href="/about"><a>About</a></Link>
-                    <Link href="/PDFs/Resume.pdf"><a>Resume</a></Link>
-                    <ImageLink href="https://github.com/tapscodes" src="Images/github.png" width="40vw" height="40vw"/>
-                    <ImageLink href="https://www.linkedin.com/in/taps/" src="Images/linked_in.png" width="40vw" height="40vw"/>
+                    <Link href="/PDFs/Resume.pdf"><a target="_blank">Resume</a></Link>
+                    <ImageLink href="https://github.com/tapscodes" target="_blank" src="Images/github.png" width="40vw" height="40vw"/>
+                    <ImageLink href="https://www.linkedin.com/in/taps/" target="_blank" src="Images/linked_in.png" width="40vw" height="40vw"/>
                     <ImageLink href="mailto:business@tristan-alexander.com" src="Images/email.png" width="40vw" height="40vw"/>
                 </div>
             </div>
