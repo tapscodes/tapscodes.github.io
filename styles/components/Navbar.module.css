@@ -5,13 +5,12 @@
     background-color: rgb(112,128,144);
     border: .01vw solid #ddd;
     width: 100%;
-    height: 4vw;
+    height: 6vw;
 }
 .other{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5vw;
     margin-right: 0.5vw;
     margin-left: auto;
 }
@@ -27,5 +26,5 @@
 }
 .icon {
     display: flex;
-    margin-left: 0.2vw;
+    margin-left: 0.5vw;
 }
