@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav>
             <div className={styles.navbar}>
                 <div className={styles.icon}>
-                    <Image src="Icons/android-chrome-192x192.png" width="60vw" height="60vw"/>
+                    <Link href="/"><a><Image src="Icons/android-chrome-192x192.png" width="60vw" height="60vw"/></a></Link>
                 </div>
                 <div className={styles.other}>
                     <Link href="/"><a>Home</a></Link>
