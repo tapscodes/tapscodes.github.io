@@ -9,7 +9,8 @@
 }
 .other{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 0.5vw;
     margin-right: 0.5vw;
     margin-left: auto;
@@ -17,7 +18,6 @@
 .other a{
     color:aliceblue;
     text-decoration: none;
-    margin-top: 1vw;
     margin-left: 1vw;
     font-size: 2.2vw;
 }
