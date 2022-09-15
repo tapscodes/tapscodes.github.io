@@ -1,0 +1,9 @@
+.box{
+    display: flex;
+}
+.image{
+    flex: 3;
+}
+.textbox{
+    flex: 3;
+}
