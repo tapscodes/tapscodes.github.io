@@ -1,5 +1,10 @@
 .box{
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+
+    border: 0.01vw solid rgb(255,0,0);
+    border-radius: 2vw;
 }
 .image{
     flex: 3;
