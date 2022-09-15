@@ -1,4 +1,4 @@
-import styles from "../../styles//components/ImageTextBox.module.css";
+import styles from "../../styles/components/ImageTextBox.module.css";
 /*
 Params:
 -img_url = path to image/image url
