@@ -16,9 +16,9 @@ const Projects = () => {
                 <ImageDescriptionBox href="https://github.com/tapscodes/WatchList" target="_blank" img_url="Images/watchtime.png" 
                 header = "WatchList" text="Watchlist is a personal project built with javafx + java that stores your shows watched, 
                 the current episode you're on, and your current watching status."/>
-                <ImageDescriptionBox href="https://github.com/tapscodes/FirstSite" target="_blank" img_url="Images/first_site.png" 
+                <ImageDescriptionBox href="https://tapscodes.github.io/FirstSite/" target="_blank" img_url="Images/first_site.png" 
                 header = "HTML Portfolio Website" text="I originally created my portfolio website using nothing but basic html, css, and javascript.
-                It is still being hosted in github pages if you'd want to look at it."/>
+                It is still being hosted in github pages, so if you want to look at it just click the image on the left."/>
             </ul>
         </div>
      );
