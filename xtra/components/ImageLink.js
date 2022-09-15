@@ -6,11 +6,11 @@ import Link from "next/link";
 -target = target image param
 -width = image width
 -height = image height
--fill = image fill
+-layout = image fill
 */
 const ImageLink = (props) => {
     return ( 
-        <Link href={props.href}><a target={props.target}><Image src={props.src} width={props.width} height={props.height} fill={props.fill}/></a></Link>
+        <Link href={props.href}><a target={props.target}><Image src={props.src} width={props.width} height={props.height} layout={props.layout}/></a></Link>
      );
 }
  
