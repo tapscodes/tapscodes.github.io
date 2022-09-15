@@ -4,6 +4,7 @@
     flex-wrap: nowrap;
     flex-direction: row;
     margin: 0 auto;
+    margin-bottom: 1vw;
 
     width: 80vw;
     height: 30vw;

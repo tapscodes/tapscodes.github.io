@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Head from "next/head";
 import ImageDescriptionBox from "../xtra/components/ImageDescriptionBox"
 
@@ -10,7 +9,7 @@ const Projects = () => {
                 <meta name="description" content="Tristan Spatscheck's Coding Projects"/>
             </Head>
             <ul>
-                <h1>Coding Projects</h1>
+                <h1 style={{fontSize: "5vw"}}>Coding Projects</h1>
                 <ImageDescriptionBox href="https://github.com/tapscodes/tapscodes.github.io" target="_blank" img_url="Images/site_view.png" 
                 header = "Next.js Portofolio Website" text="The website you are currently viewing was made entirely with React and Next.JS."/>
                 <ImageDescriptionBox href="https://github.com/tapscodes/WatchList" target="_blank" img_url="Images/watchtime.png" 
