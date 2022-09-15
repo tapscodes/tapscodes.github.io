@@ -15,8 +15,12 @@
     flex: 3;
 
     display: flex;
+
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+
+    background-color: rgb(0,255,255);;
 
     border: 0.01vw solid rgb(0,255,255);
     border-top-left-radius: 2vw;
@@ -37,12 +41,28 @@
 
     background-color: rgb(150, 150, 150);
 
-    border: 0.01vw solid rgb(0,0,255);
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;
 }
-.textbox p{
+.textbox h1{
+    flex: 2;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+    background-color: rgb(125, 125, 125);
+
     font-size: 2vw;
     text-align: center;
+
+    border: 0.01vw solid rgb(0,0,255);
+    border-radius: 2vw;
+}
+.textbox p{
+    flex: 4;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+
+    font-size: 1vw;
+    text-align: left;
     vertical-align: middle;
 }
