@@ -31,12 +31,18 @@
 .textbox{
     flex: 3;
 
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
 
     background-color: rgb(150, 150, 150);
 
     border: 0.01vw solid rgb(0,0,255);
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;
+}
+.textbox p{
+    font-size: 2vw;
+    text-align: center;
+    vertical-align: middle;
 }

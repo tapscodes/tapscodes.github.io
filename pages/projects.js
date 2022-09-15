@@ -11,7 +11,8 @@ const Projects = () => {
             </Head>
             <ul>
                 <h1>Coding Projects</h1>
-                <ImageDescriptionBox href="https://github.com/tapscodes" target="_blank" img_url="Images/pizza.jpg" text="Text"/>
+                <ImageDescriptionBox href="https://github.com/tapscodes" target="_blank" img_url="Images/pizza.jpg" 
+                header = "Next.js Portofolio Website" text="The website you are currently viewing was made entirely with React and Next.JS."/>
                 <h3><Link href="https://github.com/tapscodes/tapscodes.github.io">Next.js Portfolio Website</Link></h3>
                 <p>The website you are currently viewing was made entirely with React and Next.JS.</p>
                 <h3><Link href="https://github.com/tapscodes/WatchList">WatchList</Link></h3>

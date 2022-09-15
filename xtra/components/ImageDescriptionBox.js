@@ -4,6 +4,7 @@ Params:
 -img_url = image source path
 -target = target link param
 -href = link for image
+-header = header for textbox
 -text = text for textbox
 */
 const ImageDescriptionBox = (props) => {
@@ -13,6 +14,7 @@ const ImageDescriptionBox = (props) => {
                 <a href={props.href}>You Should Never See This Text, It's Just Here To Make The Image A Link</a>
             </div>
             <div className={styles.textbox}>
+                <h1>{props.header}</h1>
                 <p>{props.text}</p>
             </div>
         </div>
