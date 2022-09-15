@@ -1,22 +1,18 @@
 import styles from "../../styles/components/ImageDescriptionBox.module.css";
-import ImageLink from "./ImageLink";
 /*
 Params:
--src = image source path
+-img_url = image source path
+-target = target link param
 -href = link for image
--target = target image param
--width = image width
--height = image height
--fill = image fill
 -text = text for textbox
 */
 const ImageDescriptionBox = (props) => {
     return ( 
-        <div className="box">
-            <div className="image">
-                <ImageLink href={props.href} target={props.target} src={props.src} width={props.width} height={props.height}/>
+        <div className={styles.box}>
+            <div className={styles.image} style={{backgroundImage:"url(" + props.img_url + ")"}}>
+                <a href={props.href}>You Should Never See This Text, It's Just Here To Make The Image A Link</a>
             </div>
-            <div className="textbox">
+            <div className={styles.textbox}>
                 <p>{props.text}</p>
             </div>
         </div>
