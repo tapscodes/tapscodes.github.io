@@ -24,7 +24,7 @@ const About = () => {
             <h1>Interests</h1>
             <div className={styles.interests}>
                 <Marquee speed="100" pauseOnHover={true} direction="left" gradient={true} gradientColor={[255,0,0]} gradientWidth={30}>
-                    <ImageTextBox img_url="../../Images/basketball.jpg" text="Basketball"/>
+                    <ImageTextBox img_url="/Images/basketball.jpg" text="Basketball"/>
                     <ImageTextBox img_url="/Images/skiing.jpg" text="Skiing"/>
                     <ImageTextBox img_url="/Images/pizza.jpg" text="Pizza"/>
                     <ImageTextBox img_url="/Images/tennis.jpg" text="Tennis"/>
