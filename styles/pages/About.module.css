@@ -1,6 +1,6 @@
 .interests{
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     height: 15vw;
     width: 100%;
 }
