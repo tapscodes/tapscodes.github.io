@@ -12,6 +12,9 @@ const About = () => {
                 <meta name="description" content="Extra Information About Tristan Spatscheck."/>
             </Head>
             {/*NAV: Work Experience (put here when there's something to show)*/}
+            <h1>Work Experience</h1>
+            <h3>University of Utah</h3>
+            <p><a href="https://www.sci.utah.edu/people/tristan.html">Paid Undergraduate Research</a>: Octorober 2022 - Present</p>
             {/*NAV: Education*/}
             <h1>Education</h1>
             <h3>University of Utah</h3>
