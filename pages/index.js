@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee';
 import styles from '../styles/pages/Home.module.css';
 
 export default function Home() {
-  const skills = "Java | C# | HTML | CSS | Javascript | React | C++ | Git | NextJS | Swift | SQL | MIPS | Cloudflare | JavaFX | Visual Studio 2022 | Visual Studio Code | QT";
+  const skills = "Java | C# | HTML | CSS | Javascript | React | Python | C++ | Git | NextJS | Swift | SQL | MIPS | Cloudflare | JavaFX | Visual Studio 2022 | Visual Studio Code | QT";
 
   const quote = "Tristan Pudell-Spatscheck";
 
