@@ -14,7 +14,7 @@ const About = () => {
             {/*NAV: Work Experience (put here when there's something to show)*/}
             <h1>Work Experience</h1>
             <h3>SnoWrangler LLC</h3>
-            <p><a href="https://www.sci.utah.edu/people/tristan.html">Data Manager</a>: May 2023 - Present</p>
+            <p><a href="https://www.snowrangler.com/">Data Manager</a>: May 2023 - Present</p>
             <h3>University of Utah</h3>
             <p><a href="https://www.sci.utah.edu/people/tristan.html">Paid Undergraduate Research</a>: Octorober 2022 - May 2023</p>
             {/*NAV: Education*/}
