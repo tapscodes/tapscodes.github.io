@@ -22,13 +22,13 @@ const About = () => {
             <h3>University of Utah</h3>
             <p>Bachelor of Computer Science: August 2020 - Present</p>
             <h3>SnowPro Core Certified</h3>
-            <p><Link href="/PDFS/az_900_cert.pdf">Microsoft Azure Certified</Link>: Janurary 2024-Janurary 2024</p>
+            <p><Link href="/PDFS/az_900_cert.pdf">Microsoft Azure Certified</Link>: Janurary 2024 - Janurary 2024</p>
             <h3>Azure Certified (AZ-900)</h3>
-            <p><Link href="/PDFS/az_900_cert.pdf">Microsoft Azure Certified</Link>: July 2023-July 2023</p>
+            <p><Link href="/PDFS/az_900_cert.pdf">Microsoft Azure Certified</Link>: July 2023 - July 2023</p>
             <h3>Udacity.com iOS Nanodegree Program</h3>
-            <p><Link href="/PDFs/iOS_Nanodegree.pdf">iOS Developer Nanodegree</Link>: August 2018-June 2019</p>
+            <p><Link href="/PDFs/iOS_Nanodegree.pdf">iOS Developer Nanodegree</Link>: August 2018 - June 2019</p>
             <h3>Randolph High School</h3>
-            <p>Highschool Diploma: August 2016-June 2020</p>
+            <p>Highschool Diploma: August 2016 - June 2020</p>
             {/*NAV: Interests*/}
             <h1>Interests</h1>
             <div className={styles.interests}>
